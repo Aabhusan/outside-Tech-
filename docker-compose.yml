@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  node:
+    build: ./
+    container_name: "testnode"
+    ports:
+      - "3000:3000"
+
